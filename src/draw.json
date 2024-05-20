@@ -1,0 +1,38 @@
+{
+  "attrs": { "width": 400, "height": 600 },
+  "className": "Stage",
+  "children": [
+    {
+      "attrs": {},
+      "className": "Layer",
+      "children": [
+        {
+          "attrs": {
+            "fill": "green",
+            "x": 50,
+            "y": 100,
+            "radius": 70,
+            "text": "KANGCHUANYUAN",
+            "name": "textOne",
+            "draggable": true
+          },
+          "className": "Text"
+        },
+        { "attrs": { "y": 165 }, "className": "Transformer" },
+        {
+          "attrs": {
+            "x": 102,
+            "y": 230,
+            "radius": 70,
+            "fill": "red",
+            "stroke": "black",
+            "strokeWidth": 6,
+            "name": "circleOne",
+            "draggable": true
+          },
+          "className": "Circle"
+        }
+      ]
+    }
+  ]
+}
